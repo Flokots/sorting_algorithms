@@ -9,7 +9,7 @@ int stringLength(char *s){
     return i;
 }
 
-// What is the method of selection used here? 
+// Sorting with minimum selection
 void sort_0(char *t){
     char aux, minimum;
     int i, j, minimumIndex, length = stringLength(t);
